@@ -1,0 +1,15 @@
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\bin\Debug\AlziCare.exe.config
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\bin\Debug\AlziCare.exe
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\bin\Debug\AlziCare.pdb
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.csprojAssemblyReference.cache
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.Properties.Resources.resources
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.csproj.GenerateResource.cache
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.csproj.CoreCompileInputs.cache
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.exe
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.pdb
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmAdminBudget.resources
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmAdminHome.resources
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmAdminLogin.resources
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmAdminPlanning.resources
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmSelectAccountForm.resources
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmUserPlanning.resources
