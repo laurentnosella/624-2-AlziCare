@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblEspaceAdmin = new System.Windows.Forms.Label();
             this.dgwPatient = new System.Windows.Forms.DataGridView();
+            this.btnEspaceAdmin = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgwPatient)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,17 +60,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Veuillez sélectionner le compte du &patient";
             // 
-            // lblEspaceAdmin
-            // 
-            this.lblEspaceAdmin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblEspaceAdmin.AutoSize = true;
-            this.lblEspaceAdmin.Location = new System.Drawing.Point(348, 24);
-            this.lblEspaceAdmin.Name = "lblEspaceAdmin";
-            this.lblEspaceAdmin.Size = new System.Drawing.Size(75, 13);
-            this.lblEspaceAdmin.TabIndex = 3;
-            this.lblEspaceAdmin.Text = "&Espace Admin";
-            this.lblEspaceAdmin.Click += new System.EventHandler(this.lblEspaceAdmin_Click);
-            // 
             // dgwPatient
             // 
             this.dgwPatient.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -83,13 +72,23 @@
             this.dgwPatient.TabIndex = 2;
             this.dgwPatient.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwPatient_CellContentClick);
             // 
+            // btnEspaceAdmin
+            // 
+            this.btnEspaceAdmin.Location = new System.Drawing.Point(351, 12);
+            this.btnEspaceAdmin.Name = "btnEspaceAdmin";
+            this.btnEspaceAdmin.Size = new System.Drawing.Size(75, 23);
+            this.btnEspaceAdmin.TabIndex = 4;
+            this.btnEspaceAdmin.Text = "&Espace Admin";
+            this.btnEspaceAdmin.UseVisualStyleBackColor = true;
+            this.btnEspaceAdmin.Click += new System.EventHandler(this.btnEspaceAdmin_Click);
+            // 
             // FrmSelectAccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(438, 447);
+            this.Controls.Add(this.btnEspaceAdmin);
             this.Controls.Add(this.dgwPatient);
-            this.Controls.Add(this.lblEspaceAdmin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MinimumSize = new System.Drawing.Size(454, 486);
@@ -106,7 +105,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblEspaceAdmin;
         private System.Windows.Forms.DataGridView dgwPatient;
+        private System.Windows.Forms.Button btnEspaceAdmin;
     }
 }

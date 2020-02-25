@@ -57,7 +57,7 @@
             this.btnSupp.Name = "btnSupp";
             this.btnSupp.Size = new System.Drawing.Size(256, 67);
             this.btnSupp.TabIndex = 2;
-            this.btnSupp.Text = "Supprimer";
+            this.btnSupp.Text = "&Supprimer";
             this.btnSupp.UseVisualStyleBackColor = true;
             this.btnSupp.Click += new System.EventHandler(this.btnSupp_Click);
             // 
@@ -69,7 +69,7 @@
             this.btnPlan.Name = "btnPlan";
             this.btnPlan.Size = new System.Drawing.Size(256, 67);
             this.btnPlan.TabIndex = 3;
-            this.btnPlan.Text = "Planning";
+            this.btnPlan.Text = "&Planning";
             this.btnPlan.UseVisualStyleBackColor = true;
             this.btnPlan.Click += new System.EventHandler(this.btnPlan_Click);
             // 
@@ -81,7 +81,7 @@
             this.btnBudg.Name = "btnBudg";
             this.btnBudg.Size = new System.Drawing.Size(256, 67);
             this.btnBudg.TabIndex = 4;
-            this.btnBudg.Text = "Dépenses";
+            this.btnBudg.Text = "&Dépenses";
             this.btnBudg.UseVisualStyleBackColor = true;
             this.btnBudg.Click += new System.EventHandler(this.btnBudg_Click);
             // 
@@ -92,7 +92,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(155, 69);
             this.btnAdd.TabIndex = 5;
-            this.btnAdd.Text = "Ajouter";
+            this.btnAdd.Text = "&Ajouter";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -105,7 +105,7 @@
             this.dtgUser.Location = new System.Drawing.Point(12, 12);
             this.dtgUser.Name = "dtgUser";
             this.dtgUser.Size = new System.Drawing.Size(514, 351);
-            this.dtgUser.TabIndex = 7;
+            this.dtgUser.TabIndex = 0;
             this.dtgUser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgUser_CellContentClick);
             // 
             // FrmAdminHome

@@ -42,7 +42,7 @@
             this.btnConnection.Name = "btnConnection";
             this.btnConnection.Size = new System.Drawing.Size(221, 81);
             this.btnConnection.TabIndex = 6;
-            this.btnConnection.Text = "Se connecter";
+            this.btnConnection.Text = "Se &connecter";
             this.btnConnection.UseVisualStyleBackColor = true;
             this.btnConnection.Click += new System.EventHandler(this.btnConnection_Click);
             // 

@@ -38,12 +38,18 @@ namespace AlziCare
         private void SelectAccountForm_Load(object sender, EventArgs e)
         {
             FrmAdminLogin form = new FrmAdminLogin();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void dgwPatient_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             FrmUserPlanning form = new FrmUserPlanning();
+            form.Show();
+        }
+
+        private void btnEspaceAdmin_Click(object sender, EventArgs e)
+        {
+            FrmAdminHome form = new FrmAdminHome();
             form.Show();
         }
     }

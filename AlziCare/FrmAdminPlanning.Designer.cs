@@ -79,16 +79,16 @@
             this.groupBox4.Location = new System.Drawing.Point(440, 33);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(200, 100);
-            this.groupBox4.TabIndex = 6;
+            this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Quantité";
+            this.groupBox4.Text = "&Quantité";
             // 
             // nudQuantity
             // 
             this.nudQuantity.Location = new System.Drawing.Point(40, 40);
             this.nudQuantity.Name = "nudQuantity";
             this.nudQuantity.Size = new System.Drawing.Size(120, 20);
-            this.nudQuantity.TabIndex = 2;
+            this.nudQuantity.TabIndex = 0;
             // 
             // groupBox3
             // 
@@ -99,9 +99,9 @@
             this.groupBox3.Location = new System.Drawing.Point(234, 33);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(200, 100);
-            this.groupBox3.TabIndex = 6;
+            this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Médicament";
+            this.groupBox3.Text = "&Médicament";
             // 
             // cbxMedicCombo
             // 
@@ -110,7 +110,7 @@
             this.cbxMedicCombo.Location = new System.Drawing.Point(25, 64);
             this.cbxMedicCombo.Name = "cbxMedicCombo";
             this.cbxMedicCombo.Size = new System.Drawing.Size(14, 13);
-            this.cbxMedicCombo.TabIndex = 6;
+            this.cbxMedicCombo.TabIndex = 2;
             this.cbxMedicCombo.TabStop = true;
             this.cbxMedicCombo.UseVisualStyleBackColor = true;
             this.cbxMedicCombo.CheckedChanged += new System.EventHandler(this.cbMedicCombo_CheckedChanged);
@@ -121,7 +121,7 @@
             this.cbxMedicTxt.Location = new System.Drawing.Point(25, 22);
             this.cbxMedicTxt.Name = "cbxMedicTxt";
             this.cbxMedicTxt.Size = new System.Drawing.Size(14, 13);
-            this.cbxMedicTxt.TabIndex = 5;
+            this.cbxMedicTxt.TabIndex = 0;
             this.cbxMedicTxt.UseVisualStyleBackColor = true;
             this.cbxMedicTxt.CheckedChanged += new System.EventHandler(this.cbMedicTxt_CheckedChanged);
             // 
@@ -139,10 +139,10 @@
             "Panadol",
             "Dolipran",
             "Aspirine"});
-            this.cbMedic.Location = new System.Drawing.Point(54, 60);
+            this.cbMedic.Location = new System.Drawing.Point(54, 61);
             this.cbMedic.Name = "cbMedic";
             this.cbMedic.Size = new System.Drawing.Size(121, 21);
-            this.cbMedic.TabIndex = 4;
+            this.cbMedic.TabIndex = 3;
             // 
             // groupBox2
             // 
@@ -150,9 +150,9 @@
             this.groupBox2.Location = new System.Drawing.Point(17, 33);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 100);
-            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Heure";
+            this.groupBox2.Text = "&Heure";
             // 
             // tbxHeure
             // 
@@ -168,7 +168,7 @@
             this.btnEnregistrer.Name = "btnEnregistrer";
             this.btnEnregistrer.Size = new System.Drawing.Size(75, 23);
             this.btnEnregistrer.TabIndex = 1;
-            this.btnEnregistrer.Text = "Enregistrer";
+            this.btnEnregistrer.Text = "&Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
             this.btnEnregistrer.Click += new System.EventHandler(this.btnEnregistrer_Click);
             // 
