@@ -40,24 +40,26 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tbxHeure = new System.Windows.Forms.TextBox();
             this.btnEnregistrer = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.cbRappel);
+            this.groupBox1.Controls.Add(this.groupBox5);
             this.groupBox1.Controls.Add(this.groupBox4);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(776, 170);
+            this.groupBox1.Size = new System.Drawing.Size(863, 170);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Création d\'un évènement";
@@ -68,7 +70,7 @@
             this.cbRappel.Items.AddRange(new object[] {
             "Sans rappel",
             "Avec rappel"});
-            this.cbRappel.Location = new System.Drawing.Point(649, 77);
+            this.cbRappel.Location = new System.Drawing.Point(40, 39);
             this.cbRappel.Name = "cbRappel";
             this.cbRappel.Size = new System.Drawing.Size(121, 21);
             this.cbRappel.TabIndex = 3;
@@ -164,7 +166,7 @@
             // btnEnregistrer
             // 
             this.btnEnregistrer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEnregistrer.Location = new System.Drawing.Point(713, 188);
+            this.btnEnregistrer.Location = new System.Drawing.Point(800, 188);
             this.btnEnregistrer.Name = "btnEnregistrer";
             this.btnEnregistrer.Size = new System.Drawing.Size(75, 23);
             this.btnEnregistrer.TabIndex = 1;
@@ -172,11 +174,21 @@
             this.btnEnregistrer.UseVisualStyleBackColor = true;
             this.btnEnregistrer.Click += new System.EventHandler(this.btnEnregistrer_Click);
             // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.cbRappel);
+            this.groupBox5.Location = new System.Drawing.Point(646, 33);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(200, 100);
+            this.groupBox5.TabIndex = 3;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "&Rappel";
+            // 
             // FrmAdminPlanning
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 221);
+            this.ClientSize = new System.Drawing.Size(887, 221);
             this.Controls.Add(this.btnEnregistrer);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -193,6 +205,7 @@
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -211,5 +224,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox tbxHeure;
         private System.Windows.Forms.Button btnEnregistrer;
+        private System.Windows.Forms.GroupBox groupBox5;
     }
 }

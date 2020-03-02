@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace AlziCare
 {
-    public partial class FrmSelectAccountForm : Form
+    public partial class FrmSelectAccount : Form
     {
-        public FrmSelectAccountForm()
+        public FrmSelectAccount()
         {
             InitializeComponent();
         }
@@ -44,13 +44,20 @@ namespace AlziCare
         private void dgwPatient_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             FrmUserPlanning form = new FrmUserPlanning();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void btnEspaceAdmin_Click(object sender, EventArgs e)
         {
             FrmAdminHome form = new FrmAdminHome();
             form.Show();
+        }
+
+        private void btnFrontEnd_Click(object sender, EventArgs e)
+        {
+
+            FrmUserPlanning form = new FrmUserPlanning();
+            form.ShowDialog();
         }
     }
 }

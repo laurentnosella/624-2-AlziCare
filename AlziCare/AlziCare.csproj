@@ -84,11 +84,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FrmSelectAccountForm.cs">
+    <Compile Include="FrmSelectAccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmSelectAccountForm.Designer.cs">
-      <DependentUpon>FrmSelectAccountForm.cs</DependentUpon>
+    <Compile Include="FrmSelectAccount.Designer.cs">
+      <DependentUpon>FrmSelectAccount.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmUserPlanning.cs">
       <SubType>Form</SubType>
@@ -120,8 +120,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FrmSelectAccountForm.resx">
-      <DependentUpon>FrmSelectAccountForm.cs</DependentUpon>
+    <EmbeddedResource Include="FrmSelectAccount.resx">
+      <DependentUpon>FrmSelectAccount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUserPlanning.resx">
       <DependentUpon>FrmUserPlanning.cs</DependentUpon>

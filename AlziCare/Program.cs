@@ -16,7 +16,7 @@ namespace AlziCare
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSelectAccountForm());
+            Application.Run(new FrmSelectAccount());
         }
     }
 }

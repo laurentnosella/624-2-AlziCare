@@ -1,6 +1,6 @@
 ﻿namespace AlziCare
 {
-    partial class FrmSelectAccountForm
+    partial class FrmSelectAccount
     {
         /// <summary>
         /// Required designer variable.
@@ -32,6 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dgwPatient = new System.Windows.Forms.DataGridView();
             this.btnEspaceAdmin = new System.Windows.Forms.Button();
+            this.btnFrontEnd = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgwPatient)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,17 +83,28 @@
             this.btnEspaceAdmin.UseVisualStyleBackColor = true;
             this.btnEspaceAdmin.Click += new System.EventHandler(this.btnEspaceAdmin_Click);
             // 
-            // FrmSelectAccountForm
+            // btnFrontEnd
+            // 
+            this.btnFrontEnd.Location = new System.Drawing.Point(162, 167);
+            this.btnFrontEnd.Name = "btnFrontEnd";
+            this.btnFrontEnd.Size = new System.Drawing.Size(101, 23);
+            this.btnFrontEnd.TabIndex = 5;
+            this.btnFrontEnd.Text = "Acces FrontEnd";
+            this.btnFrontEnd.UseVisualStyleBackColor = true;
+            this.btnFrontEnd.Click += new System.EventHandler(this.btnFrontEnd_Click);
+            // 
+            // FrmSelectAccount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(438, 447);
+            this.Controls.Add(this.btnFrontEnd);
             this.Controls.Add(this.btnEspaceAdmin);
             this.Controls.Add(this.dgwPatient);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MinimumSize = new System.Drawing.Size(454, 486);
-            this.Name = "FrmSelectAccountForm";
+            this.Name = "FrmSelectAccount";
             this.Text = "AlziCare - Sélection du compte";
             this.Load += new System.EventHandler(this.SelectAccountForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgwPatient)).EndInit();
@@ -107,5 +119,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dgwPatient;
         private System.Windows.Forms.Button btnEspaceAdmin;
+        private System.Windows.Forms.Button btnFrontEnd;
     }
 }
