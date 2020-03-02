@@ -38,7 +38,7 @@
             // 
             // btnConnection
             // 
-            this.btnConnection.Location = new System.Drawing.Point(34, 261);
+            this.btnConnection.Location = new System.Drawing.Point(34, 162);
             this.btnConnection.Name = "btnConnection";
             this.btnConnection.Size = new System.Drawing.Size(221, 81);
             this.btnConnection.TabIndex = 6;
@@ -49,7 +49,7 @@
             // lblLogin
             // 
             this.lblLogin.AutoSize = true;
-            this.lblLogin.Location = new System.Drawing.Point(31, 48);
+            this.lblLogin.Location = new System.Drawing.Point(31, 30);
             this.lblLogin.Name = "lblLogin";
             this.lblLogin.Size = new System.Drawing.Size(84, 13);
             this.lblLogin.TabIndex = 1;
@@ -58,7 +58,7 @@
             // lblMdp
             // 
             this.lblMdp.AutoSize = true;
-            this.lblMdp.Location = new System.Drawing.Point(31, 118);
+            this.lblMdp.Location = new System.Drawing.Point(31, 69);
             this.lblMdp.Name = "lblMdp";
             this.lblMdp.Size = new System.Drawing.Size(71, 13);
             this.lblMdp.TabIndex = 3;
@@ -66,23 +66,23 @@
             // 
             // txbMdp
             // 
-            this.txbMdp.Location = new System.Drawing.Point(155, 115);
+            this.txbMdp.Location = new System.Drawing.Point(34, 85);
             this.txbMdp.Name = "txbMdp";
             this.txbMdp.PasswordChar = '*';
-            this.txbMdp.Size = new System.Drawing.Size(100, 20);
+            this.txbMdp.Size = new System.Drawing.Size(221, 20);
             this.txbMdp.TabIndex = 4;
             // 
             // txbLogin
             // 
-            this.txbLogin.Location = new System.Drawing.Point(155, 45);
+            this.txbLogin.Location = new System.Drawing.Point(34, 46);
             this.txbLogin.Name = "txbLogin";
-            this.txbLogin.Size = new System.Drawing.Size(100, 20);
+            this.txbLogin.Size = new System.Drawing.Size(221, 20);
             this.txbLogin.TabIndex = 2;
             // 
             // lblErrorLogin
             // 
             this.lblErrorLogin.AutoSize = true;
-            this.lblErrorLogin.Location = new System.Drawing.Point(58, 234);
+            this.lblErrorLogin.Location = new System.Drawing.Point(58, 135);
             this.lblErrorLogin.Name = "lblErrorLogin";
             this.lblErrorLogin.Size = new System.Drawing.Size(178, 13);
             this.lblErrorLogin.TabIndex = 5;
@@ -94,7 +94,7 @@
             this.AcceptButton = this.btnConnection;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(286, 363);
+            this.ClientSize = new System.Drawing.Size(286, 263);
             this.ControlBox = false;
             this.Controls.Add(this.lblErrorLogin);
             this.Controls.Add(this.btnConnection);

@@ -16,5 +16,20 @@ namespace AlziCare
         {
             InitializeComponent();
         }
+
+        private void FrmAdminEditUser_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnValid_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

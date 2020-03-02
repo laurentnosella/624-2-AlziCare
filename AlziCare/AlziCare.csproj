@@ -99,6 +99,9 @@
     <EmbeddedResource Include="FrmAdminBudget.resx">
       <DependentUpon>FrmAdminBudget.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminEditUser.resx">
+      <DependentUpon>FrmAdminEditUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAdminHome.resx">
       <DependentUpon>FrmAdminHome.cs</DependentUpon>
     </EmbeddedResource>

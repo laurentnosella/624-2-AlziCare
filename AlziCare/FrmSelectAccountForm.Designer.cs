@@ -74,9 +74,9 @@
             // 
             // btnEspaceAdmin
             // 
-            this.btnEspaceAdmin.Location = new System.Drawing.Point(351, 12);
+            this.btnEspaceAdmin.Location = new System.Drawing.Point(331, 12);
             this.btnEspaceAdmin.Name = "btnEspaceAdmin";
-            this.btnEspaceAdmin.Size = new System.Drawing.Size(75, 23);
+            this.btnEspaceAdmin.Size = new System.Drawing.Size(95, 23);
             this.btnEspaceAdmin.TabIndex = 4;
             this.btnEspaceAdmin.Text = "&Espace Admin";
             this.btnEspaceAdmin.UseVisualStyleBackColor = true;

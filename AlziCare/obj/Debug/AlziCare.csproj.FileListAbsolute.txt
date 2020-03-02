@@ -13,3 +13,4 @@ C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCa
 C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmAdminPlanning.resources
 C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmSelectAccountForm.resources
 C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmUserPlanning.resources
+C:\Users\Master\Documents\624-2-GenieLogiciel\AlziCare\AlziCare\obj\Debug\AlziCare.FrmAdminEditUser.resources

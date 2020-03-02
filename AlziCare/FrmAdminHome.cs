@@ -23,12 +23,14 @@ namespace AlziCare
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            FrmAdminEditUser form = new FrmAdminEditUser();
+            form.ShowDialog();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-
+            FrmAdminEditUser form = new FrmAdminEditUser();
+            form.ShowDialog();
         }
 
         private void btnSupp_Click(object sender, EventArgs e)
