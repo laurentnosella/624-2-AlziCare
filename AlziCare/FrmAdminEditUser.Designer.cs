@@ -41,10 +41,9 @@
             // 
             // lblInfoUser
             // 
-            this.lblInfoUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblInfoUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblInfoUser.AutoSize = true;
-            this.lblInfoUser.Location = new System.Drawing.Point(153, 25);
+            this.lblInfoUser.Location = new System.Drawing.Point(154, 25);
             this.lblInfoUser.Name = "lblInfoUser";
             this.lblInfoUser.Size = new System.Drawing.Size(107, 13);
             this.lblInfoUser.TabIndex = 0;

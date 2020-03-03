@@ -42,7 +42,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(159, 75);
+            this.label1.Location = new System.Drawing.Point(161, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 13);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(111, 113);
+            this.label2.Location = new System.Drawing.Point(118, 113);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(202, 13);
             this.label2.TabIndex = 1;
@@ -85,7 +85,7 @@
             // 
             // btnFrontEnd
             // 
-            this.btnFrontEnd.Location = new System.Drawing.Point(162, 167);
+            this.btnFrontEnd.Location = new System.Drawing.Point(169, 167);
             this.btnFrontEnd.Name = "btnFrontEnd";
             this.btnFrontEnd.Size = new System.Drawing.Size(101, 23);
             this.btnFrontEnd.TabIndex = 5;

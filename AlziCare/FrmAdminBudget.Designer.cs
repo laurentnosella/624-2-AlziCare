@@ -42,9 +42,9 @@
             // btnPdf
             // 
             this.btnPdf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPdf.Location = new System.Drawing.Point(419, 415);
+            this.btnPdf.Location = new System.Drawing.Point(419, 404);
             this.btnPdf.Name = "btnPdf";
-            this.btnPdf.Size = new System.Drawing.Size(90, 23);
+            this.btnPdf.Size = new System.Drawing.Size(90, 34);
             this.btnPdf.TabIndex = 2;
             this.btnPdf.Text = "&Extraire en PDF";
             this.btnPdf.UseVisualStyleBackColor = true;
@@ -55,7 +55,7 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(13, 12);
             this.groupBox1.MinimumSize = new System.Drawing.Size(497, 287);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(497, 287);
@@ -78,7 +78,7 @@
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.dataGridView2);
-            this.groupBox2.Location = new System.Drawing.Point(12, 305);
+            this.groupBox2.Location = new System.Drawing.Point(13, 305);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(497, 93);
             this.groupBox2.TabIndex = 1;

@@ -38,7 +38,7 @@
             // 
             // btnConnection
             // 
-            this.btnConnection.Location = new System.Drawing.Point(34, 162);
+            this.btnConnection.Location = new System.Drawing.Point(33, 162);
             this.btnConnection.Name = "btnConnection";
             this.btnConnection.Size = new System.Drawing.Size(221, 81);
             this.btnConnection.TabIndex = 6;
@@ -82,7 +82,7 @@
             // lblErrorLogin
             // 
             this.lblErrorLogin.AutoSize = true;
-            this.lblErrorLogin.Location = new System.Drawing.Point(58, 135);
+            this.lblErrorLogin.Location = new System.Drawing.Point(54, 135);
             this.lblErrorLogin.Name = "lblErrorLogin";
             this.lblErrorLogin.Size = new System.Drawing.Size(178, 13);
             this.lblErrorLogin.TabIndex = 5;

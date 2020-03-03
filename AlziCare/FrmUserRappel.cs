@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AlziCare
 {
-    public partial class FrmAdminAddUser : Form
+    public partial class FrmUserRappel : Form
     {
-        public FrmAdminAddUser()
+        public FrmUserRappel()
         {
             InitializeComponent();
+        }
+
+        private void btnMedic_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

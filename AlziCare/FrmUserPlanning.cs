@@ -16,5 +16,11 @@ namespace AlziCare
         {
             InitializeComponent();
         }
+
+        private void btnRappel_Click(object sender, EventArgs e)
+        {
+            FrmUserRappel form = new FrmUserRappel();
+            form.ShowDialog();
+        }
     }
 }
