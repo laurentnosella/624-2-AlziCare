@@ -77,7 +77,7 @@
             this.btnRappel.Name = "btnRappel";
             this.btnRappel.Size = new System.Drawing.Size(75, 23);
             this.btnRappel.TabIndex = 4;
-            this.btnRappel.Text = "Test Rappel";
+            this.btnRappel.Text = "Test &Rappel";
             this.btnRappel.UseVisualStyleBackColor = true;
             this.btnRappel.Click += new System.EventHandler(this.btnRappel_Click);
             // 

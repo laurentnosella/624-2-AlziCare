@@ -89,7 +89,7 @@
             this.btnFrontEnd.Name = "btnFrontEnd";
             this.btnFrontEnd.Size = new System.Drawing.Size(101, 23);
             this.btnFrontEnd.TabIndex = 5;
-            this.btnFrontEnd.Text = "Acces FrontEnd";
+            this.btnFrontEnd.Text = "Acces &FrontEnd";
             this.btnFrontEnd.UseVisualStyleBackColor = true;
             this.btnFrontEnd.Click += new System.EventHandler(this.btnFrontEnd_Click);
             // 

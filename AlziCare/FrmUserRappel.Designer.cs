@@ -60,7 +60,7 @@
             this.btnMedic.Name = "btnMedic";
             this.btnMedic.Size = new System.Drawing.Size(372, 59);
             this.btnMedic.TabIndex = 2;
-            this.btnMedic.Text = "J\'ai pris mon médicament";
+            this.btnMedic.Text = "J\'ai pris mon &médicament";
             this.btnMedic.UseVisualStyleBackColor = true;
             this.btnMedic.Click += new System.EventHandler(this.btnMedic_Click);
             // 
@@ -68,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(402, 328);
+            this.ClientSize = new System.Drawing.Size(402, 351);
             this.ControlBox = false;
             this.Controls.Add(this.btnMedic);
             this.Controls.Add(this.lblNomMedic);
