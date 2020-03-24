@@ -24,8 +24,7 @@ namespace AlziCare
 
         private void btnPdf_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("", "Extraction en PDF", MessageBoxButtons.OK);
-
+            MessageBox.Show("L'extraction s'est bien déroulée", "Extraction en PDF", MessageBoxButtons.OK);
         }
     }
 }

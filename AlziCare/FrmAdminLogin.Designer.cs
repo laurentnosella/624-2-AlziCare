@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAdminLogin));
             this.btnConnection = new System.Windows.Forms.Button();
             this.lblLogin = new System.Windows.Forms.Label();
             this.lblMdp = new System.Windows.Forms.Label();
@@ -103,6 +104,7 @@
             this.Controls.Add(this.txbMdp);
             this.Controls.Add(this.txbLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmAdminLogin";

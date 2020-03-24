@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmUserRappel));
             this.lblHeure = new System.Windows.Forms.Label();
             this.lblNomMedic = new System.Windows.Forms.Label();
             this.btnMedic = new System.Windows.Forms.Button();
@@ -73,6 +74,7 @@
             this.Controls.Add(this.btnMedic);
             this.Controls.Add(this.lblNomMedic);
             this.Controls.Add(this.lblHeure);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(418, 367);
             this.Name = "FrmUserRappel";
             this.Text = "AlziCare - Rappel";

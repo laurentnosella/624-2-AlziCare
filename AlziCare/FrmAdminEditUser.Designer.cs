@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAdminEditUser));
             this.lblInfoUser = new System.Windows.Forms.Label();
             this.tbxPrenom = new System.Windows.Forms.TextBox();
             this.tbxDesc = new System.Windows.Forms.RichTextBox();
@@ -52,17 +53,18 @@
             // tbxPrenom
             // 
             this.tbxPrenom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbxPrenom.Location = new System.Drawing.Point(88, 71);
+            this.tbxPrenom.Location = new System.Drawing.Point(12, 71);
             this.tbxPrenom.Name = "tbxPrenom";
-            this.tbxPrenom.Size = new System.Drawing.Size(241, 20);
+            this.tbxPrenom.Size = new System.Drawing.Size(390, 20);
             this.tbxPrenom.TabIndex = 2;
             // 
             // tbxDesc
             // 
-            this.tbxDesc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbxDesc.Location = new System.Drawing.Point(88, 149);
+            this.tbxDesc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxDesc.Location = new System.Drawing.Point(12, 149);
             this.tbxDesc.Name = "tbxDesc";
-            this.tbxDesc.Size = new System.Drawing.Size(241, 182);
+            this.tbxDesc.Size = new System.Drawing.Size(396, 182);
             this.tbxDesc.TabIndex = 6;
             this.tbxDesc.Text = "";
             // 
@@ -92,7 +94,7 @@
             // 
             this.lblPrenom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrenom.AutoSize = true;
-            this.lblPrenom.Location = new System.Drawing.Point(85, 55);
+            this.lblPrenom.Location = new System.Drawing.Point(12, 55);
             this.lblPrenom.Name = "lblPrenom";
             this.lblPrenom.Size = new System.Drawing.Size(43, 13);
             this.lblPrenom.TabIndex = 1;
@@ -102,7 +104,7 @@
             // 
             this.lblDesc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDesc.AutoSize = true;
-            this.lblDesc.Location = new System.Drawing.Point(85, 133);
+            this.lblDesc.Location = new System.Drawing.Point(12, 133);
             this.lblDesc.Name = "lblDesc";
             this.lblDesc.Size = new System.Drawing.Size(60, 13);
             this.lblDesc.TabIndex = 5;
@@ -112,7 +114,7 @@
             // 
             this.lblNom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNom.AutoSize = true;
-            this.lblNom.Location = new System.Drawing.Point(85, 94);
+            this.lblNom.Location = new System.Drawing.Point(12, 94);
             this.lblNom.Name = "lblNom";
             this.lblNom.Size = new System.Drawing.Size(29, 13);
             this.lblNom.TabIndex = 3;
@@ -121,9 +123,9 @@
             // tbxNom
             // 
             this.tbxNom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbxNom.Location = new System.Drawing.Point(88, 110);
+            this.tbxNom.Location = new System.Drawing.Point(12, 110);
             this.tbxNom.Name = "tbxNom";
-            this.tbxNom.Size = new System.Drawing.Size(241, 20);
+            this.tbxNom.Size = new System.Drawing.Size(390, 20);
             this.tbxNom.TabIndex = 4;
             // 
             // FrmAdminEditUser
@@ -140,6 +142,9 @@
             this.Controls.Add(this.tbxDesc);
             this.Controls.Add(this.tbxPrenom);
             this.Controls.Add(this.lblInfoUser);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(430, 489);
             this.Name = "FrmAdminEditUser";
             this.Text = "AlziCare - Utilisateur";

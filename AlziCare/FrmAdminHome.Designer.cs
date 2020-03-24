@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAdminHome));
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnSupp = new System.Windows.Forms.Button();
             this.btnPlan = new System.Windows.Forms.Button();
@@ -119,6 +120,7 @@
             this.Controls.Add(this.btnPlan);
             this.Controls.Add(this.btnSupp);
             this.Controls.Add(this.btnEdit);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "FrmAdminHome";
             this.Text = "AlziCare - Espace Administrateur";
